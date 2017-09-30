@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+  <title>JGV TRAVEL & TOURS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></liink>
+  <link rel ="stylesheet" type="text/css" href="../mongs/css/design.css"></link>
+  <link rel = "stylesheet" type="text/css" href="css/bootstrap.min.css"></link> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body> 
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Assistant</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="JGVTRAVEL&TOURSAssistantusers.html">Users</a></li>
+      <li class="active"><a href="JGVTRAVEL&TOURSAssistanttransactions.html">Transactions</a></li>
+        <li class=""><a href="JGVTRAVEL&TOURSAssistantpromos.html">Promos</a>
+          <li class=""><a href="JGVTRAVEL&TOURSAssistanttourpackages.html">Tour Packages</a></li></li>
+    </ul>
+   <a href="JGVTRAVEL&TOURSlogin.html"><button type="button" class="btn btn-link" style="margin-left:900px;margin-top: -40px;">logout</button></a>
+
+</nav>
+  
+  <div class="container">
+     <h2>TRANSACTIONS</h2><br>
+     <table class="table table-striped">
+     <thead>
+       <tr>
+       <th>No</th>
+       <th>Firstname</th>
+        <th>Lastname</th>
+         <th>Email</th>
+          <th>Date</th>
+          <th>Destination</th>
+        <th>Status</th>
+       </tr>
+
+     </thead>
+    
+     <tbody>
+       <tr>
+         <td>1</td>
+         <td>Mary Grace</td>
+         <td>Puyot</td>
+         <td>marygrace.puyot@jmc.edu.ph</td>
+         <td>10-03-17</td>
+         <td></td>
+         <td>Pending</td>
+        <td><button type="button" class="btn btn-info" data-toggle="modal" data-target="viewinfo1";>View </button></td>
+
+       </tr>
+       <tr>
+         <td>2</td>
+         <td>Kharmella</td>
+         <td>Lacap</td>
+         <td>kharmella.lacap@jmc.edu.ph</td>
+         <td>10-03-17</td>
+         <td></td>
+         <td>Pending</td>
+          <td><button type="button" class="btn btn-info" data-toggle="modal" data-target="viewinfo2">View </button></td>
+       </tr>
+        <tr>
+         <td>3</td>
+         <td>Cristine</td>
+         <td>Abalahin</td>
+         <td>cristine.abalahin@jmc.edu.ph</td>
+         <td>08-03-17</td>
+          <td></td>
+         <td>Approved</td>
+          <td><button type="button" class="btn btn-info" data-toggle="modal" data-target="viewinfo3">View </button></td>
+        
+         
+       </tr>
+         <tr>
+         <td>4</td>
+         <td>Kieffer</td>
+         <td>Ganza</td>
+         <td>kieffer.ganza@jmc.edu.ph</td>
+         <td>08-03-16</td>
+         <td></td>
+         <td>Approved</td>
+         <td><button type="button" class="btn btn-info" data-toggle="modal" data-target="viewinfo4">View </button></td>
+       </tr>
+         <div class="modal fade" id="viewinfo1" role="dialog">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+        <div class="modal-header" style="background-color: #99b3ff">
+             <h4 class="modal-title" style="color: white;"> Booking </h4>
+            </div>
+             <div class="modal-body" >
+            <form method="POST">
+  
+              <h5>Payment:Php 3000</h5>
+              <h5>Method of payment: Pera Padala</h5>
+              <h5>Approve payment</h5>
+                
+               <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Approve</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+            </div>
+           </div>
+         </div>
+       </div>
+     </tbody>
+ </table>
+  </div>
+
+
+  
+</body>
+
+
+</html>
